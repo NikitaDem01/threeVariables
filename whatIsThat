@@ -25,6 +25,7 @@ def threeVariables(s):
                 date = str(now)[8:10] + "." + str(now)[5:7]
             elif s.count(".") == 1:
                 date = s
+    whattodo = whattodo[1:]
     return whattodo[1:], date, time
 
 print(threeVariables("напомнить сделать сиаод 18.04 в 12:30"))
